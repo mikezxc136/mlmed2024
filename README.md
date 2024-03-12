@@ -12,5 +12,4 @@ Student Info
 
 * Name: Dang Van Tuan
 * ID: BA11-096
-* Group ID: *Your Group ID here*
 
