@@ -1,60 +1,38 @@
-\documentclass[conference]{IEEEtran}
-\usepackage{graphicx}
-\title{ECG Heartbeat Classification}
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref} % Required for hyperlinks
+
+\title{report 1}
+\author{Tuan Van}
+\date{March 2024}
+
 \begin{document}
+
 \maketitle
 
 \section{Introduction}
+The project aim to 
 
-Heart
-
-Heartbeat: what why
-
-Heartbeat in clinical diagnosis: what why
-
-ML: what why 
-
-ML in heartbeat Classification: what why
-
-What other people do in ML for heartbeat Classification: survey
-
-State problem
-
-\section{Background}
-
-ECG 
-
-CNN 
-
-\section{Method}
-
-CNN architecture
-
-\section{Evaluation}
-
-Dataset
-
-Metric
-
-Result
-
-Discussion
-
-\section{Conclusion}
-
-What you did, what you did not do, what's wrong
-
-What should be done in the future
-
-
-
-
-
-
-
-
-
-
-
-
+\section{Dataset}
+\subsection{Source}
+The source of the dataset on \href{https://www.kaggle.com/datasets/shayanfazeli/heartbeat}{Kaggle}.
+\subsection{Size and Structure}
+The size of the data set is:
+5 rows × 187 columns
+With the dimension:
+(87554, 187)
+The data is quite clean it doesn't have much null data.
+\section{Implementation}
+I have implemented the model in many steps:
+\begin{enumerate}
+\item Normalized
+\item Split the data into training and validation set
+\item Check the class imbalance
+\item Define a hyper-parameters
+\item Compute the weight, pass the with to WeightedRandomSampler
+\item Design model Architecture
+\item Visualizations
+\item Adjust model
+\end{enumerate}
 \end{document}
+
